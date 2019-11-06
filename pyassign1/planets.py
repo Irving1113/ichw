@@ -8,8 +8,7 @@ earth = turtle.Pen()
 mars = turtle.Pen()
 jupiter = turtle.Pen()
 saturn = turtle.Pen()
-
-    
+  
 def ellipse(a,b,t,color):
     minAngle = (2*math.pi/360) * 360 / 50
     t.color(color)
@@ -30,3 +29,6 @@ for i in range(10000):
     ellipse(227,136,mars,"black")
     ellipse(278,167,jupiter,"orange")
     ellipse(327,196,saturn,"brown")
+
+if __name__ == '__main__':
+    main()
